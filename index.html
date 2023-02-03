@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alina Filippova</title>
-    <link rel="shortcut icon" href="/img/filippova-logo.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="img/filippova-logo.jpg" type="image/x-icon">
 </head>
 
 <body>
@@ -30,7 +30,7 @@
                 </div>
                 <h1 id="home">Alina Filippova</h1>
                 <h2>&#171;Student&#187;</h2>
-                <a href="/files/alina-filippova-cv-softserve.pdf" class="Header-button" target="_blank">View CV</a>
+                <a href="files/alina-filippova-cv-softserve.pdf" class="Header-button" target="_blank">View CV</a>
             </div>
         </div>
     </header>
@@ -55,40 +55,63 @@
         <section class="courses">
             <h3 id="courses">Courses</h3>
             <h5>HTML/CSS courses for Beginners</h5>
-               <p>(In this course I created my first project.<a href="https://extraordinary-liger-249ed0.netlify.app/">My First Page</a></p>
-               <h5> Testing for Beginners</h5>
-               <i> after completing of this course I have a strong understanding in next topics:</i>
-                <ol>
-               <li>Types of Test Documentation</li>
+            <p>(In this course I created my first project.<a href="https://extraordinary-liger-249ed0.netlify.app/">My
+                    First Page</a></p>
+            <h5> Testing for Beginners</h5>
+            <i> after completing of this course I have a strong understanding in next topics:</i>
+            <ol>
+                <li>Types of Test Documentation</li>
                 <li>Principles of Testing</li>
                 <li>Types of Software Testing</li>
                 <li>How to create Jira Issues</li>
                 <li>Boundary Value Analysis and Equivalence Partitioning</li>
-                </ol>
+            </ol>
         </section>
 
         <section class="contacts">
             <h3 id="contacts">Contacts</h3>
             <form action="#">
-                <p>
-                    <label for="username">Enter a Username:</label>
-                    <input type="text" name="username" id="username" placeholder="username">
-                </p>
-                <p>
-                    <label for="pass">Enter a password:</label>
-                    <input type="password" name="pass" id="pass" placeholder="password">
-                </p>
-                <p>
-                    <label for="number">Enter a Number:</label>
-                    <input type="number" name="number" id="number" placeholder="enter your number">
-                </p>
-                <button>Submit</button>
+                <div class="form-item">
+                    <p>
+                        <label for="username">Enter a Username:</label>
+                        <input type="text" name="username" id="username" placeholder="username" minlength="6"
+                            maxlength="22" required>
+                    </p>
+                    <p>
+                        <label for="mail">Enter a mail:</label>
+                        <input type="text" name="mail" id="mail" placeholder="mail" required>
+                    </p>
+                    <p>
+                        <label for="number">Enter a Number:</label>
+                        <input type="number" name="number" id="number" placeholder="enter your number">
+                    </p>
+                    <p>
+                        <input type="checkbox" name="agree" id="agree">
+                        <label for="agree">I agree to everything</label>
+                    </p>
+                    <p>
+                        <label for="slect"></label>
+                    </p>
+                    <button>Submit</button>
+                </div>
             </form>
         </section>
     </main>
     <hr>
     <footer>
-        <a title="Click to call" href="tel:+380997757747">+380 99 775 7747</a>
+        <div class="helps">
+            <ul>
+                <li><a title="Click to call" href="tel:+380997757747">+380 99 775 7747</a></li>
+                <li><a href="mailto:filiczinka@gmail.com">Help</a></li>
+            </ul>
+        </div>
+        <div class="social-media">
+            <ul>
+                <li>Facebook</li>
+                <li>Linkedin</li>
+                <li>GitHub</li>
+            </ul>
+        </div>
     </footer>
 </body>
 
