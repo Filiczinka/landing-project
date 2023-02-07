@@ -2,123 +2,393 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alina Filippova</title>
-    <link rel="shortcut icon" href="img/filippova-logo.jpg" type="image/x-icon">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Alina Filippova</title>
+	<link rel="shortcut icon" href="img/filippova-logo.jpg" type="image/x-icon">
 </head>
 
 <body>
-    <header>
-        <div class="page-home">
-            <nav>
-                <div class="logo">
-                    <img width="100" src="img/filippova-logo.jpg" alt="Personal Logo">
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li><a href="#home" class="menu-items">Home</a></li>
-                        <li><a href="#skills" class="menu-items">Skills</a></li>
-                        <li><a href="#courses" class="menu-items">Courses</a></li>
-                        <li><a href="#contacts" class="menu-items">Contacts</a></li>
-                    </ul>
-                </div>
-            </nav>
-            <hr>
-            <div class="header-profile">
-                <div class="profile-photo">
-                    <img src="img/filippova-profile.png" alt="Girl" title="Open">
-                </div>
-                <h1 id="home">Alina Filippova</h1>
-                <h2>&#171;Student&#187;</h2>
-                <a href="files/alina-filippova-cv-softserve.pdf" class="Header-button" target="_blank">View CV</a>
-            </div>
-        </div>
-    </header>
+	<header>
+		<div class="header">
+			<div class="header__logo">
+				<img src="images/logo.svg" alt="Lingva School Logo">
+				<p class="header__logo-name">Extensive English Course</p>
+			</div>
 
-    <main>
-        <section class="skills">
-            <h3 id="skills">Skills</h3>
-            <ul>
-                <li>HTML/CSS</li>
-                <li>Jira</li>
-                <li>Microsoft Office</li>
-                <li>Adobe Creative Suite</li>
-            </ul>
-            <ul>
-                <li>Discipline</li>
-                <li>Communication</li>
-                <li>Attention to detail</li>
-                <li>Fast Learner</li>
-            </ul>
-        </section>
+			<div class="header__menu">
+				<a href="#">About course</a>
+				<a href="#">Program</a>
+				<a href="#">Pricing</a>
+				<a href="#">Teachers</a>
+				<a href="#">Testimonials</a>
+				<a href="#">Gallery</a>
+				<a href="#">Contacts</a>
+			</div>
 
-        <section class="courses">
-            <h3 id="courses">Courses</h3>
-            <h5>HTML/CSS courses for Beginners</h5>
-            <p>(In this course I created my first project.<a href="https://extraordinary-liger-249ed0.netlify.app/">
-                    My First Page</a></p>
-            <h5> Testing for Beginners</h5>
-            <i> after completing of this course I have a strong understanding in next topics:</i>
-            <ol>
-                <li>Types of Test Documentation</li>
-                <li>Principles of Testing</li>
-                <li>Types of Software Testing</li>
-                <li>How to create Jira Issues</li>
-                <li>Boundary Value Analysis and Equivalence Partitioning</li>
-            </ol>
-        </section>
+			<div class="header__banner">
+				<h1 class="header__title">Extensive English Course</h1>
+				<p class="header__slogan">Speak English like a pro in 10 weeks!</p>
+				<p class="header__text">Classes are held at: Lodhi Estate, New Delhi, Delhi
+					110049, India</p>
+			</div>
 
-        <section class="contacts">
-            <h3 id="contacts">Contacts</h3>
-            <form action="#">
-                <div class="form-item">
-                    <p>
-                        <label for="username">Enter your Name:</label>
-                        <input type="text" name="username" id="username" placeholder="username" minlength="6"
-                            maxlength="22" required>
-                    </p>
-                    <p>
-                        <label for="mail">Enter a mail:</label>
-                        <input type="email" name="mail" id="mail" placeholder="mail" required>
-                    </p>
-                    <p>
-                        <label for="number">Enter your phone number:</label>
-                        <input type="tel" name="number" id="number" placeholder="phone number" required>
-                    </p>
-                    <p>
-                        <input type="checkbox" name="agree" id="agree">
-                        <label for="agree">I hereby agree to process my personal data included in the form by the
-                            Administrator, according to the Privacy Policy, and to its publication with the site.
-                        </label>
-                    </p>
-                    <p>
-                        <label for="requests">Do you have questions?</label>
-                        <textarea name="requests" id="requests" cols="30" rows="10"></textarea>
-                    </p>
+			<div class="header__button">
+				<a href="#" class="header__apply-button button">Apply Now</a>
+				<a href="#" class="header__button button">Program</a>
+			</div>
 
-                    <button>Submit</button>
-                </div>
-            </form>
-        </section>
-    </main>
-    <hr>
-    <footer>
-        <div class="helps">
-            <ul>
-                <li><a title="Click to call" href="tel:+380997757747">+380 99 775 7747</a></li>
-                <li><a href="mailto:filiczinka@gmail.com">Help</a></li>
-            </ul>
-        </div>
-        <div class="social-media">
-            <ul>
-                <li><a class="fa-brands fa-facebook" href="https://www.facebook.com/filiczinka">facebook</a></li>
-                <li> <a class="fa-brands fa-square-github" href="https://github.com/Filiczinka">GitHub</a></li>
-            </ul>
-        </div>
-    </footer>
-    <script src="https://kit.fontawesome.com/a41407e2a4.js" crossorigin="anonymous"></script>
-</body>
+			<div class="header__banner">
+				<img src="images/header-banner.svg" alt="Banner">
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<section class="header__info-container">
+			<div class="header__info-item">
+				<h3>$100/course</h3>
+				<p>Payments are made no later than 5 days before the classes start.</p>
+			</div>
+			<div class="header__info-item">
+				<h3>30 lessons</h3>
+				<p>3 times a week - Mondays, Wednesdays and Saturdays 
+					at 19: 30-21: 30.</p>
+			</div>
+			<div class="header__info-item">
+				<h3>January 2020</h3>
+				<p>The new course starts in January 2020. Hurry up to book your seat!</p>
+			</div>
+			<div class="header__info-item">
+				<h3>10 students</h3>
+				<p>We work only with small groups so that each student learns the topics.</p>
+			</div>
+		</section>
+
+		<section class="info">
+			<div class="info__container">
+				<h2 class="info__title">Boost Your English With Us!</h2>
+				<p class="info__text">The extensive course is specially tailored for those who
+					are tired of years of studying
+					without results. Our teachers know how to engage students in the learning
+					activities and understand the tricks
+					of the English language once and for all.</p>
+			</div>
+			<img src="images/info-banner.svg" alt="Girl with books">
+		</section>
+
+		<section class="problem-solution">
+			<div class="problem-solution__container">
+				<div class="solution">
+					<h2 class="solution__title">How Do We Solve Language Problems?</h2>
+					<p class="solution__text">Only new approaches and extensive practice can help
+						you deal with with the following
+						issues:</p>
+				</div>
+
+				<div class="problem">
+					<div class="problem-speaking">
+						<img class="header__icons-items" src="images/number-icons-one.svg" alt="One">
+						<h4 class="problem-speaking__title">Afraid of speaking?</h4>
+						<p class="problem-speaking__text">English-language environment at our
+							courses will make you speak</p>
+					</div>
+					<div class="problem-buzz">
+						<img class="header__icons-items" src="images/number-icons-two.svg" alt="Two">
+						<h4 class="problem-buzz__title">Buzz in brain?</h4>
+						<p class="problem-buzz__text">We form English-language thinking,
+							explaining grammar on real examples</p>
+					</div>
+					<div class="problem-pronunciation">
+						<img class="header__icons-items" src="images/number-icons-three.svg" alt="Three">
+						<h4 class="problem-pronunciation__title">Bad pronunciation?</h4>
+						<p class="problem-pronunciation__text">Our teachers will improve the
+							way you speak and help you sound British.</p>
+					</div>
+					<div class="problem-think">
+						<img class="header__icons-items" src="images/number-icons-four.svg" alt="Four">
+						<h4 class="problem-think__title">Do not think in English?</h4>
+						<p class="problem-think__text">We don't leave you any choice. We speak
+							and discuss all matters in English only.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="program">
+			<h2 class="program__title">Course Program</h2>
+			<div class="program__container">
+				<div class="introduction">
+					<span class="week">Week 1-2</span>
+					<h3 class="introduction__title">Introduction</h3>
+					<p class="introduction__text">We work on the pronunciation from the very beginning
+						of the course and explain the basic rules for the use of articles and
+						prepositions.</p>
+					<img src="images/line.svg" alt="line">
+				</div>
+				<div class="passive">
+					<span class="week">Week 3-4</span>
+					<h3 class="passive__title">Passive Voice & Gerund</h3>
+					<p class="passive__text">There's nothing complicated about Passive Voice,
+						plus it's sometimes much easier than usual way of putting
+						the sentence together.</p>
+					<img src="images/line.svg" alt="line">
+				</div>
+				<div class="indirect-speech">
+					<span class="week">Week 5-6</span>
+					<h3 class="indirect-speech__title">Indirect Speech</h3>
+					<p class="indirect-speech__text">When you want to say that
+						somebody has said something, you use the indirect speech.
+						It's used both in written and spoken English.</p>
+					<img src="images/line.svg" alt="line">
+				</div>
+				<div class="conditions">
+					<span class="week">Week 9-10</span>
+					<h3 class="conditions__title">Conditions & Final Test</h3>
+					<p class="conditions__text">We make one of the most complicated
+						topics in English simple. On the 10th week, you past the
+						final test and receive a certificate.</p>
+					<img src="images/line.svg" alt="line">
+				</div>
+			</div>
+		</section>
+
+		<section class="levels">
+			<h2 class="levels__title">Who is This Course for?</h2>
+			<p class="levels__text">If you are already familiar with basic
+				English but want to quickly upgrade your skills, then we are
+				waiting for you on our extensive course!</p>
+			<ul class="levels__list">
+				<li class="levels__list-items"><img class="levels__icons-items" src="images/levels-icons.svg" alt="Arrow"
+						width="20">Pre-Intemediate</li>
+				<li class="levels__list-items"><img class="levels__icons-items" src="images/levels-icons.svg" alt="Arrow"
+						width="20">Intermediate</li>
+				<li class="levels__list-items"><img class="levels__icons-items" src="images/levels-icons.svg" alt="Arrow"
+						width="20">>Upper-Intermediate</li>
+			</ul>
+			<img src="images/levels-banner.svg" alt="Girl writes">
+		</section>
+
+		<section class="prising">
+			<h2 class="prising__title">Pricing</h2>
+			<p class="prising__text">If you pay the full amount right away, you get a 25% discount.</p>
+			<div class="monthly">
+				<h4 class="monthly__title">Monthly Rate</h4>
+				<img src="images/pricing-icons.svg" alt="Smile">
+				<p class="monthly__price">$50</p>
+				<p class="monthly__duration">The course lasts 2.5 months</p>
+				<ul class="monthly__list">
+					<li class="monthly__list-items">20% discount on books</li>
+					<li class="monthly__list-items">2 individual lessons</li>
+					<li class="monthly__list-items">Access to the Friday speaking club</li>
+				</ul>
+				<a class="monthly__button button" href="#">Select</a>
+			</div>
+			<div class="full-course">
+				<h4 class="full-course__title">Full Course</h4>
+				<img src="images/pricing-icons-smile.svg" alt="Smile">
+				<p class="full-course__price">$100</p>
+				<p class="full-course__duration">The course lasts 2.5 months</p>
+				<ul class="full-course__list">
+					<li class="full-course__list-items">30% discount on books</li>
+					<li class="full-course__list-items">3 individual lessons</li>
+					<li class="full-course__list-items">Additional audio-materials</li>
+				</ul>
+				<a class="monthly__button button" href="#">Select</a>
+			</div>
+		</section>
+
+		<section class="register__form">
+			<h2 class="register__title">Improve Your English Skills
+				With Lingva School</h2>
+			<p class="register__text">Register for the extensive course now and get a 25% discount!</p>
+			<form action="#" class="register">
+				<input type="text" name="register__name" id="register__name" placeholder="Name">
+				<br>
+				<input type="tel" name="register__phone" id="register__phone" placeholder="Phone number">
+				<br>
+				<button class="register__button button" type="button">Register</button>
+			</form>
+		</section>
+
+		<section class="teachers">
+			<h2 class="teachers__title">Our Teachers</h2>
+			<div class="teachers-patrick">
+				<img src="images/teachers-patrick.jpg" alt="Teacher's photo Patrick Pool">
+				<h4 class="teachers-patrick__info">English Teacher | Native speaker</h4>
+				<h3 class="teachers-patrick__name">Patrick Pool</h3>
+				<p class="teachers-patrick__text">Patrick moved to Delhi from London and has a teacher
+					diploma. A strict but fair teacher, he knows how to explain complex
+					things simply and always gives homework.</p>
+			</div>
+			<div class="teachers-helen">
+				<img src="images/teachers-helen.jpg" alt="Teacher's photo Helen Smith">
+				<h4 class="teachers-helen__info">English Teacher | Native speaker</h4>
+				<h3 class="teachers-helen__name">Helen Smith</h3>
+				<p class="teavhers-helen__text">Helen will help you speak English,
+					work on the pronunciation, and teach you how to build sentences
+					in English at once without contemplating the phrases in Hindi first.</p>
+			</div>
+		</section>
+
+		<section class="choose">
+			<div class="choose-fast">
+				<img src="images/lighting-icon.svg" alt="Lighting" width="30">
+				<h4 class="choose-fast__title">Fast</h4>
+				<p class="choose-fast__text">You speak English like a pro in 10 weeks.</p>
+			</div>
+			<div class="choose-innovative">
+				<img src="images/phone-icon.svg" alt="Phone" width="30">
+				<h4 class="choose-innovative__title">Innovative</h4>
+				<p class="choose-innovative__text">The lessons are conducted with multimedia gadgets.</p>
+			</div>
+			<div class="choose-professional">
+				<img src="images/smile-icon.svg" alt="Smile" width="30">
+				<h4 class="choose-professional__title">Professional</h4>
+				<p class="choose-professional__text">All our teachers are native speakers..</p>
+			</div>
+			<div class="choose-extensive">
+				<img src="images/mustache-icon.svg" alt="Mustache" width="30">
+				<h4 class="choose-extensive__title">Extensive</h4>
+				<p class="choose-extensive__text">3 lessons per week for 2 hours.</p>
+			</div>
+			<div class="choose-bonuses">
+				<img src="images/controller-icon.svg" alt="Controller" width="30">
+				<h4 class="choose-bonuses__title">Free bonuses</h4>
+				<p class="choose-bonuses__text">Conversation clubs with native speakers,
+					multimedia materials for study and entertainment.</p>
+			</div>
+			<div class="choose-efficient">
+				<img src="images/magic-wand-icon.svg" alt="Magic wand" width="30">
+				<h4 class="choose-efficient__title">Efficient</h4>
+				<p class="choose-efficient__text">After you complete the course, you pass the final
+					exam and receive a certificate confirming your current level.</p>
+			</div>
+		</section>
+
+		<section class="testimonials">
+			<h2 class="testimonials__title">Testimonials</h2>
+			<p class="testimonials__text">Reviews from our former students</p>
+			<div class="testimonials__carousel">
+				<div class="testimonials-lili">
+					<p class="testimonials-lili__text">I've studied English for years, but still
+						could not reach an acceptable
+						level. I still had the same problems with the articles and the confusion in the times. I decided to try
+						again and signed up for an extensive Lingua School course. After 10 weeks,
+						I spoke reasonably well, and most
+						importantly, I understood the difference between Present Perfect and Past
+						Perfect!</p>
+					<p class="testimonials-lili__date">October 28, 2018</p>
+					<div class="testimonials-lili__photo">
+						<img src="images/testimonials-lili.jpg" alt="Girl" width="100">
+					</div>
+					<h5 class="testimonials-lili__title">Lili Fati</h5>
+				</div>
+				<div class="testimonials-suri">
+					<p class="testimonials-suri__text">This is a pretty saturated course for those who are serious about learning
+						a language. Classes are conducted perfectly, at each lesson, the teachers check the students' homework, so
+						there is no way not to do the tasks. Perhaps, not everyone is ready to study 3 times a week for 2 hours, but
+						based on my experience, I can say for sure that this is more effective than regular courses.</p>
+					<p class="testiomonials-suri__date" >February 12, 2019</p>
+					<div class="testimonials-suri__photo">
+						<img src="images/testimonials-suri.jpg" alt="Girl" width="100">
+					</div>
+					<h5 class="testimonials-suri__title">Suri Mhatma</h5>
+				</div>
+				<div class="testimonials-ramil">
+					<p class="testimonials-ramil__text">I came to courses to improve pronunciation and grammar, but I got a lot
+						more! I stopped being afraid to talk, learned to write correctly, and as a result of the course I got a new
+						job related to the English language! I am sure that the Lingva School certificate played a great role. Many
+						thanks to the school and to the teachers that bring the light of knowledge into the students' heads!</p>
+					<p class="testiomonials-ramil__date" >June 23, 2019</p>
+					<div class="testimonials-ramil__photo">
+						<img src="images/testimonials-ramil.jpg" alt="Man" width="100">
+					</div>
+					<h5 class="testimonials-ramil__title">Ramil Javadi</h5>
+				</div>
+				<div class="testimonials-pati">
+					<p class="testimonials-pati__text">If you need quickly and efficiently learn English, there is nothing better
+						than these courses. They are very intense, so for 10 weeks you are completely immersed in the English
+						language. Special thanks to our teachers for not only teaching us grammar and vocabulary, but also
+						introducing us to British and American culture. As a bonus, all former students can continue to attend the
+						speaking club!</p>
+					<p class="testiomonials-pati__date" >September 28, 2019</p>
+					<div class="testimonials-pati__photo">
+						<img src="images/testimonials-pati.jpg" alt="Man" width="100">
+					</div>
+					<h5 class="testimonials-pati__title">Pati Lahtum</h5>
+				</div>
+			</div>
+		</section>
+		<section class="gallery">
+			<h2 class="gallery__title">Gallery</h2>
+			<div class="gallery__items">
+				<img src="images/gallery-doing.jpg" alt="" width="200">
+				<p>Doing exercises </p>
+			</div>
+			<div class="gallery__items">
+				<img src="images/gallery-mastering.jpg" alt="" width="200">
+				<p>Mastering tenses in English</p>
+			</div>
+			<div class="gallery__items">
+				<img src="images/gallery-studying.jpg" alt="" width="200">
+				<p>Studying the right order of words in sentences</p>
+			</div>
+			<div class="gallery__items">
+				<img src="images/gallery-attending.jpg" alt="" width="200">
+				<p>Attending the speaking club</p>
+			</div>
+			<div class="gallery__items">
+				<img src="images/gallery-making.jpg" alt="" width="200">
+				<p>Making presentations in English</p>
+			</div>
+			<div class="gallery__items">
+				<img src="images/gallery-answering.jpg" alt="" width="200">
+				<p>Answering the teachers' questions</p>
+			</div>
+		</section>
+		<section class="contacts">
+			<h2 class="contacts__title">Contacts</h2>
+			<p class="contacts__text">
+				If you have questions, feel free to ask them by filling
+				out the form on the website, by email or by phone.</p>
+			<div class="contacts__info">
+
+			</div>
+			<form action="#" class="contacts__form">
+				<input type="text" name="contacts__name" id="contacts__name" placeholder="Enter your full name*">
+				<br>
+				<input type="tel" name="contacts__phone" id="contacts__phone" placeholder="Enter your phone number*">
+				<br>
+				<input type="email" name="contacts__email" id="contacts__email" placeholder="Enter your e-mail">
+				<br>
+				<textarea name="contacts__message" id="contacts__message" placeholder="Enter your message" cols="40" rows="10"></textarea>
+				<br>
+				<button class="contacts__button button" type="button">Send</button>
+			</form>
+		</section>
+	</main>
+	<footer>
+<div class="footer">
+	<div class="footer__logo">
+		<img src="images/logo.svg" alt="Lingva School Logo">
+		p.footer__logo-name
+	</div>
+	<div class="footer__menu">
+		<a href="#">About course</a>
+		<a href="#">Program</a>
+		<a href="#">Pricing</a>
+		<a href="#">Teachers</a>
+		<a href="#">Testimonials</a>
+		<a href="#">Gallery</a>
+		<a href="#">Contacts</a>
+	</div>
+	<div class="law" >
+		<p class="law__created">ⓒ Created by</p>
+		<p class="law__right">All rights Reserved</p>
+	</div>
+</div>
+	</footer>
 
 </html>
