@@ -7,24 +7,25 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Alina Filippova</title>
 	<link rel="shortcut icon" href="images/filippova-logo.jpg" type="image/x-icon">
+	<link rel="stylesheet" href="stylesheet.css/style.css">
 </head>
 
 <body>
 	<header>
 		<div class="header">
 			<div class="header__logo">
-				<img src="images/logo.svg" alt="Lingva School Logo">
+				<img class="header-school-logo school-logo" src="images/logo.svg" alt="Lingva School Logo">
 				<p class="header__logo-name">Extensive English Course</p>
 			</div>
 
 			<div class="header__menu">
-				<a href="#">About course</a>
-				<a href="#">Program</a>
-				<a href="#">Pricing</a>
-				<a href="#">Teachers</a>
-				<a href="#">Testimonials</a>
-				<a href="#">Gallery</a>
-				<a href="#">Contacts</a>
+				<a href="#about">About course</a>
+				<a href="#program">Program</a>
+				<a href="#pricing">Pricing</a>
+				<a href="#teachers">Teachers</a>
+				<a href="#testimonials">Testimonials</a>
+				<a href="#gallery">Gallery</a>
+				<a href="#contacts">Contacts</a>
 			</div>
 
 			<div class="header__banner">
@@ -35,8 +36,8 @@
 			</div>
 
 			<div class="header__button">
-				<a href="#" class="header__apply-button button">Apply Now</a>
-				<a href="#" class="header__button button">Program</a>
+				<a href="#register" class="header__apply-button button">Apply Now</a>
+				<a href="#program" class="header__button button">Program</a>
 			</div>
 
 			<div class="header__banner">
@@ -48,7 +49,7 @@
 	<main>
 		<section class="header__info-container">
 			<div class="header__info-item">
-				<h3>$100/course</h3>
+				<h>$100/course</h3>
 				<p>Payments are made no later than 5 days before the classes start.</p>
 			</div>
 			<div class="header__info-item">
@@ -68,7 +69,7 @@
 
 		<section class="info">
 			<div class="info__container">
-				<h2 class="info__title">Boost Your English With Us!</h2>
+				<h2 class="info__title" id="about">Boost Your English With Us!</h2>
 				<p class="info__text">The extensive course is specially tailored for those who
 					are tired of years of studying
 					without results. Our teachers know how to engage students in the learning
@@ -117,7 +118,7 @@
 		</section>
 
 		<section class="program">
-			<h2 class="program__title">Course Program</h2>
+			<h2 class="program__title" id="program">Course Program</h2>
 			<div class="program__container">
 				<div class="introduction">
 					<span class="week">Week 1-2</span>
@@ -171,7 +172,7 @@
 		</section>
 
 		<section class="prising">
-			<h2 class="prising__title">Pricing</h2>
+			<h2 class="prising__title" id="pricing">Pricing</h2>
 			<p class="prising__text">If you pay the full amount right away, you get a 25% discount.</p>
 			<div class="monthly">
 				<h4 class="monthly__title">Monthly Rate</h4>
@@ -183,7 +184,7 @@
 					<li class="monthly__list-items">2 individual lessons</li>
 					<li class="monthly__list-items">Access to the Friday speaking club</li>
 				</ul>
-				<a class="monthly__button button" href="#">Select</a>
+				<a class="monthly__button button" href="#register">Select</a>
 			</div>
 			<div class="full-course">
 				<h4 class="full-course__title">Full Course</h4>
@@ -195,12 +196,12 @@
 					<li class="full-course__list-items">3 individual lessons</li>
 					<li class="full-course__list-items">Additional audio-materials</li>
 				</ul>
-				<a class="monthly__button button" href="#">Select</a>
+				<a class="monthly__button button" href="#register">Select</a>
 			</div>
 		</section>
 
 		<section class="register__form">
-			<h2 class="register__title">Improve Your English Skills
+			<h2 class="register__title" id="register">Improve Your English Skills
 				With Lingva School</h2>
 			<p class="register__text">Register for the extensive course now and get a 25% discount!</p>
 			<form action="#" class="register">
@@ -213,7 +214,7 @@
 		</section>
 
 		<section class="teachers">
-			<h2 class="teachers__title">Our Teachers</h2>
+			<h2 class="teachers__title" id="teachers">Our Teachers</h2>
 			<div class="teachers-patrick">
 				<img src="images/teachers-patrick.jpg" alt="Teacher's photo Patrick Pool">
 				<h4 class="teachers-patrick__info">English Teacher | Native speaker</h4>
@@ -268,7 +269,7 @@
 		</section>
 
 		<section class="testimonials">
-			<h2 class="testimonials__title">Testimonials</h2>
+			<h2 class="testimonials__title" id="testimonials">Testimonials</h2>
 			<p class="testimonials__text">Reviews from our former students</p>
 			<div class="testimonials__carousel">
 				<div class="testimonials-lili">
@@ -321,8 +322,9 @@
 				</div>
 			</div>
 		</section>
+
 		<section class="gallery">
-			<h2 class="gallery__title">Gallery</h2>
+			<h2 class="gallery__title" id="gallery">Gallery</h2>
 			<div class="gallery__items">
 				<img src="images/gallery-doing.jpg" alt="photo" width="200">
 				<p>Doing exercises </p>
@@ -349,7 +351,7 @@
 			</div>
 		</section>
 		<section class="contacts">
-			<h2 class="contacts__title">Contacts</h2>
+			<h2 class="contacts__title" id="contacts">Contacts</h2>
 			<p class="contacts__text">
 				If you have questions, feel free to ask them by filling
 				out the form on the website, by email or by phone.</p>
@@ -372,8 +374,8 @@
 	<footer>
 <div class="footer">
 	<div class="footer__logo">
-		<img src="images/logo.svg" alt="Lingva School Logo">
-		<p class="footer__logo-name" >Extensive English Course</p>
+		<img  class="footer-school-logo school-logo" src="images/logo.svg" alt="Lingva School Logo">
+		<p class="footer__logo-name">Extensive English Course</p>
 	</div>
 	<div class="footer__menu">
 		<a href="#">About course</a>
