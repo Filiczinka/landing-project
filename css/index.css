@@ -28,6 +28,6 @@ h1 {
 }
 
 .header{
-    background-color: var(--background-element-color)
+    background-color: var(--background-element-color);
 }
 
