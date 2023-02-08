@@ -7,12 +7,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Alina Filippova</title>
 	<link rel="shortcut icon" href="images/filippova-logo.jpg" type="image/x-icon">
-	<link rel="stylesheet" href="stylesheet.css/style.css">
+	<link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-	<header>
-		<div class="header">
+	<header class="header">
+		<div class="header-menu__container">
 			<div class="header__logo">
 				<img class="header-school-logo school-logo" src="images/logo.svg" alt="Lingva School Logo">
 				<p class="header__logo-name">Extensive English Course</p>
@@ -27,7 +27,8 @@
 				<a href="#gallery">Gallery</a>
 				<a href="#contacts">Contacts</a>
 			</div>
-
+		</div>
+		<div class="header-banner__container">
 			<div class="header__banner">
 				<h1 class="header__title">Extensive English Course</h1>
 				<p class="header__slogan">Speak English like a pro in 10 weeks!</p>
@@ -50,11 +51,11 @@
 		<section class="header__info-container">
 			<div class="header__info-item">
 				<h>$100/course</h3>
-				<p>Payments are made no later than 5 days before the classes start.</p>
+					<p>Payments are made no later than 5 days before the classes start.</p>
 			</div>
 			<div class="header__info-item">
 				<h3>30 lessons</h3>
-				<p>3 times a week - Mondays, Wednesdays and Saturdays 
+				<p>3 times a week - Mondays, Wednesdays and Saturdays
 					at 19: 30-21: 30.</p>
 			</div>
 			<div class="header__info-item">
@@ -161,12 +162,12 @@
 				English but want to quickly upgrade your skills, then we are
 				waiting for you on our extensive course!</p>
 			<ul class="levels__list">
-				<li class="levels__list-items"><img class="levels__icons-items" src="images/levels-icons.svg" alt="Arrow"
-						width="20">Pre-Intemediate</li>
-				<li class="levels__list-items"><img class="levels__icons-items" src="images/levels-icons.svg" alt="Arrow"
-						width="20">Intermediate</li>
-				<li class="levels__list-items"><img class="levels__icons-items" src="images/levels-icons.svg" alt="Arrow"
-						width="20">>Upper-Intermediate</li>
+				<li class="levels__list-items"><img class="levels__icons-items" src="images/levels-icons.svg"
+						alt="Arrow" width="20">Pre-Intemediate</li>
+				<li class="levels__list-items"><img class="levels__icons-items" src="images/levels-icons.svg"
+						alt="Arrow" width="20">Intermediate</li>
+				<li class="levels__list-items"><img class="levels__icons-items" src="images/levels-icons.svg"
+						alt="Arrow" width="20">>Upper-Intermediate</li>
 			</ul>
 			<img src="images/levels-banner.svg" alt="Girl writes">
 		</section>
@@ -275,7 +276,8 @@
 				<div class="testimonials-lili">
 					<p class="testimonials-lili__text">I've studied English for years, but still
 						could not reach an acceptable
-						level. I still had the same problems with the articles and the confusion in the times. I decided to try
+						level. I still had the same problems with the articles and the confusion in the times. I decided
+						to try
 						again and signed up for an extensive Lingua School course. After 10 weeks,
 						I spoke reasonably well, and most
 						importantly, I understood the difference between Present Perfect and Past
@@ -287,34 +289,45 @@
 					<h5 class="testimonials-lili__title">Lili Fati</h5>
 				</div>
 				<div class="testimonials-suri">
-					<p class="testimonials-suri__text">This is a pretty saturated course for those who are serious about learning
-						a language. Classes are conducted perfectly, at each lesson, the teachers check the students' homework, so
-						there is no way not to do the tasks. Perhaps, not everyone is ready to study 3 times a week for 2 hours, but
+					<p class="testimonials-suri__text">This is a pretty saturated course for those who are serious about
+						learning
+						a language. Classes are conducted perfectly, at each lesson, the teachers check the students'
+						homework, so
+						there is no way not to do the tasks. Perhaps, not everyone is ready to study 3 times a week for
+						2 hours, but
 						based on my experience, I can say for sure that this is more effective than regular courses.</p>
-					<p class="testiomonials-suri__date" >February 12, 2019</p>
+					<p class="testiomonials-suri__date">February 12, 2019</p>
 					<div class="testimonials-suri__photo">
 						<img src="images/testimonials-suri.jpg" alt="Girl" width="100">
 					</div>
 					<h5 class="testimonials-suri__title">Suri Mhatma</h5>
 				</div>
 				<div class="testimonials-ramil">
-					<p class="testimonials-ramil__text">I came to courses to improve pronunciation and grammar, but I got a lot
-						more! I stopped being afraid to talk, learned to write correctly, and as a result of the course I got a new
-						job related to the English language! I am sure that the Lingva School certificate played a great role. Many
-						thanks to the school and to the teachers that bring the light of knowledge into the students' heads!</p>
-					<p class="testiomonials-ramil__date" >June 23, 2019</p>
+					<p class="testimonials-ramil__text">I came to courses to improve pronunciation and grammar, but I
+						got a lot
+						more! I stopped being afraid to talk, learned to write correctly, and as a result of the course
+						I got a new
+						job related to the English language! I am sure that the Lingva School certificate played a great
+						role. Many
+						thanks to the school and to the teachers that bring the light of knowledge into the students'
+						heads!</p>
+					<p class="testiomonials-ramil__date">June 23, 2019</p>
 					<div class="testimonials-ramil__photo">
 						<img src="images/testimonials-ramil.jpg" alt="Man" width="100">
 					</div>
 					<h5 class="testimonials-ramil__title">Ramil Javadi</h5>
 				</div>
 				<div class="testimonials-pati">
-					<p class="testimonials-pati__text">If you need quickly and efficiently learn English, there is nothing better
-						than these courses. They are very intense, so for 10 weeks you are completely immersed in the English
-						language. Special thanks to our teachers for not only teaching us grammar and vocabulary, but also
-						introducing us to British and American culture. As a bonus, all former students can continue to attend the
+					<p class="testimonials-pati__text">If you need quickly and efficiently learn English, there is
+						nothing better
+						than these courses. They are very intense, so for 10 weeks you are completely immersed in the
+						English
+						language. Special thanks to our teachers for not only teaching us grammar and vocabulary, but
+						also
+						introducing us to British and American culture. As a bonus, all former students can continue to
+						attend the
 						speaking club!</p>
-					<p class="testiomonials-pati__date" >September 28, 2019</p>
+					<p class="testiomonials-pati__date">September 28, 2019</p>
 					<div class="testimonials-pati__photo">
 						<img src="images/testimonials-pati.jpg" alt="Man" width="100">
 					</div>
@@ -365,32 +378,33 @@
 				<br>
 				<input type="email" name="contacts__email" id="contacts__email" placeholder="Enter your e-mail">
 				<br>
-				<textarea name="contacts__message" id="contacts__message" placeholder="Enter your message" cols="40" rows="10"></textarea>
+				<textarea name="contacts__message" id="contacts__message" placeholder="Enter your message" cols="40"
+					rows="10"></textarea>
 				<br>
 				<button class="contacts__button button" type="button">Send</button>
 			</form>
 		</section>
 	</main>
 	<footer>
-<div class="footer">
-	<div class="footer__logo">
-		<img  class="footer-school-logo school-logo" src="images/logo.svg" alt="Lingva School Logo">
-		<p class="footer__logo-name">Extensive English Course</p>
-	</div>
-	<div class="footer__menu">
-		<a href="#">About course</a>
-		<a href="#">Program</a>
-		<a href="#">Pricing</a>
-		<a href="#">Teachers</a>
-		<a href="#">Testimonials</a>
-		<a href="#">Gallery</a>
-		<a href="#">Contacts</a>
-	</div>
-	<div class="law" >
-		<p class="law__created">ⓒ Created by</p>
-		<p class="law__right">All rights Reserved</p>
-	</div>
-</div>
+		<div class="footer">
+			<div class="footer__logo">
+				<img class="footer-school-logo school-logo" src="images/logo.svg" alt="Lingva School Logo">
+				<p class="footer__logo-name">Extensive English Course</p>
+			</div>
+			<div class="footer__menu">
+				<a href="#">About course</a>
+				<a href="#">Program</a>
+				<a href="#">Pricing</a>
+				<a href="#">Teachers</a>
+				<a href="#">Testimonials</a>
+				<a href="#">Gallery</a>
+				<a href="#">Contacts</a>
+			</div>
+			<div class="law">
+				<p class="law__created">ⓒ Created by</p>
+				<p class="law__right">All rights Reserved</p>
+			</div>
+		</div>
 	</footer>
 
 </html>
