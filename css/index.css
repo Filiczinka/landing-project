@@ -14,7 +14,7 @@ font-family: 'Unbounded', cursive; */
 :root {
     --all-text-color: #060807;
     --background-element-color: #f3c6bd;
-    --background-forms-color: background: rgba(6, 8, 7, 0.05);
+    --background-forms-color: rgba(6, 8, 7, 0.5);
     --button-background-icons-color: #3040c4;
 
 }
