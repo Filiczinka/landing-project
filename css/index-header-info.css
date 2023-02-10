@@ -1,0 +1,13 @@
+.header__info-container {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.header__info-title {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1.25rem;
+}
+
+.header__info-text {
+font-family: 'Open Sans', sans-serif;;
+}
