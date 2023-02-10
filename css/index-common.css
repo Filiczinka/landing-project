@@ -14,9 +14,12 @@ font-family: 'Unbounded', cursive; */
 
 :root {
 	--text-color: #060807;
+	--font-optical-color: #ffffff;
 	--background-element-color: #f3c6bd;
 	--background-forms-color: rgba(6, 8, 7, 0.5);
-	--button-background-icons-color: #3040c4;
+	--button-background-color: #3040c4;
+	--font-family-title: 'Titillium Web', sans-serif;
+	--font-family-text: 'Open Sans', sans-serif;
 	scroll-behavior: smooth;
 }
 
