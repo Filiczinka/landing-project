@@ -1,6 +1,7 @@
 .header__info-container {
 	display: grid;
 	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-row-gap: 50px;
 }
 
 .header__info-title {
@@ -11,3 +12,8 @@
 .header__info-text {
 font-family: 'Open Sans', sans-serif;;
 }
+	
+	.header__info-title {
+	font-family: 'TItillium', sans-serif;
+	font-weight:700;
+	}
