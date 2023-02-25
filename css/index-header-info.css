@@ -1,19 +1,47 @@
 .header__info-container {
-	display: grid;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
-	grid-row-gap: 50px;
-}
+	height: 660px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	}
+	
 
 .header__info-title {
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 1.25rem;
 }
 
-.header__info-text {
-font-family: 'Open Sans', sans-serif;;
+.bottom__image-pink {
+	height: 7px;
+	width: 100%;
+	background-position: bottom;
+	margin-top: -1px;
+	position: absolute;
 }
-	
-	.header__info-title {
-	font-family: 'TItillium', sans-serif;
-	font-weight:700;
+
+@media (min-width: 480px) {
+.header__info-container {
+height: 539px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.header__info-text {
+padding-top: 20px;
+}
+}
+
+@media (min-width: 768px) {
+	.header__info-container {
+		height: 345px;
+		display: grid;
+		grid-template-rows: 1fr 1fr;
+		grid-template-columns: 1fr 1fr;
+		gap: 30px 15px;
 	}
+
+	.header__info-items {
+		height: 122px;
+		width: 367px;
+	}
+}

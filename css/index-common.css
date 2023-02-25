@@ -9,6 +9,7 @@
 }
 
 :root {
+	--background-color: #eee;
 	--text-color: #060807;
 	--font-optical-color: #ffffff;
 	--background-forms-color: rgba(6, 8, 7, 0.5);
@@ -25,9 +26,26 @@
 	max-width: 1200px;
 	margin: auto;
 	padding: 0 24px;
+	background-color: var(--background-color);
 }
 
 img {
 	display: block;
 	width: 100%;
+}
+
+h2 {
+font-family: var(--font-family-title);
+font-size: 30px;
+font-weight: 700;
+letter-spacing: -0.63px;
+line-height: 39px;
+}
+
+p {
+font-family: var(--font-family-text);
+line-height: 26px;
+font-weight: 400;
+color: var(--text-color);
+padding-top: 25px;
 }

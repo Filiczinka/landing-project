@@ -1,0 +1,10 @@
+.info {
+	height: 660px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.info__text-container {
+	height: 307px;
+}
