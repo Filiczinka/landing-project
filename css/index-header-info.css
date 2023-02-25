@@ -7,19 +7,16 @@
 	
 
 .header__info-title {
-	font-family: 'Titillium Web', sans-serif;
+	font-family: var(--font-family-title);
 	font-size: 1.25rem;
 }
 
 .bottom__image-pink {
-	height: 7px;
-	width: 100%;
 	background-position: bottom;
 	margin-top: -1px;
-	position: absolute;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 576px) {
 .header__info-container {
 height: 539px;
 display: flex;
@@ -44,4 +41,18 @@ padding-top: 20px;
 		height: 122px;
 		width: 367px;
 	}
+}
+
+@media (min-width: 992px) {
+.header__info-container {
+	height: 245px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.header__info-items {
+	height: 148px;
+	width: 235px;
+}
 }
