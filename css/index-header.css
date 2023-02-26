@@ -114,7 +114,7 @@
 
 @media (min-width: 992px) {
 	.header__menu {
-		width: 550px;
+		width: 600px;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
@@ -157,6 +157,10 @@
 @media (min-width: 1200px) {
 	.header__banner-container {
 		height: 488px;
+	}
+
+	.header__title {
+	font-size: 48px;
 	}
 
 	.header__banner {
