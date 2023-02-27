@@ -153,16 +153,17 @@
 		width: 593px;
 	}
 
-	.problem-buzz {
-		height: 294px;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-evenly;
-	}
-
 	.problem-buzz__text {
 		padding: 0;
 	}
+
+	.problem-think__text {
+		padding-top: 25px;
+	}
+
+	.problem-think {
+		width: 310px;
+}
 }
 
 @media (min-width: 1200px) {
@@ -185,4 +186,9 @@
 		height: 285px;
 		width: 365px;
 	}
+
+	.problem-buzz__text {
+		padding-top: 25px;
+	}
+
 }
