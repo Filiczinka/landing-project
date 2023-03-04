@@ -1,0 +1,42 @@
+.levels__container {
+background-color: var(--ui-brand-color);
+margin-top: -20px;
+}
+
+.line__pink-bottom {
+background-image: url(../images/pink-line-levels-block.svg);
+height: 20px;
+}
+
+.levels__text-container {
+padding: 100px 0;
+}
+
+.levels__icons-items {
+width: 18px;
+margin-right: 10px;
+}
+
+.levels__list-items {
+display: flex;
+padding-top: 20px;
+}
+
+.levels__text {
+padding-bottom: 30px;
+font-family: var(--font-family-text);
+}
+
+@media (min-width: 992px) {
+.levels__text-container {
+display: flex;
+}
+
+.levels__title {
+font-size: 36px;
+}
+
+.levels__banner {
+width: 50%;
+}
+}

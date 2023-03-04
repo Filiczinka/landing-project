@@ -6,6 +6,8 @@
 	background-image: url(../images/line-detail-blue-bottom.svg);
 	background-position: bottom;
 	height: 20px;
+	z-index: 2;
+	position: relative;
 }
 
 .program__info {
