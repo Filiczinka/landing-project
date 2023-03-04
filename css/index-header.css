@@ -212,18 +212,13 @@ body.lock {
 		line-height: 52px;
 		letter-spacing: -0.86px;
 	}
+}
 
+@media (min-width: 992px) {
 	.header__burger {
 		display: none;
 	}
 
-	.header__wrapper {
-		top: 0;
-		background-color: transparent;
-	}
-}
-
-@media (min-width: 992px) {
 	.header__menu {
 		height: 100%;
 		margin: 0;
@@ -239,10 +234,15 @@ body.lock {
 		position: relative;
 		width: 70%;
 		top: 0;
-		padding: 0;
+		padding: 0 24px;
 		transition: none;
 		flex-direction: row;
 		justify-content: space-between;
+	}
+
+	.header__wrapper {
+		top: 0;
+		background-color: transparent;
 	}
 
 	.header__nav-burger {
