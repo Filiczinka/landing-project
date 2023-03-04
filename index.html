@@ -12,19 +12,26 @@
 
 <body>
 	<header class="header">
-		<div class="header__menu-humburger container">
-			<div class="header__logo">
-				<img class="header__logo" src="images/logo.svg" alt="Lingva School Logo">
+		<div class="header__nav-menu container">
+			<div class="header__nav-burger container">
+				<a class="header__logo" href="index.html"><img class="header__logo-img" src="images/logo.svg"
+						alt="Lingva School Logo">
+				</a>
+				<div class="header__burger">
+					<span></span>
+				</div>
 			</div>
-			<nav class="header__menu">
-				<a class="header__menu-items" href="#about">About course</a>
-				<a class="header__menu-items" href="#program">Program</a>
-				<a class="header__menu-items" href="#pricing">Pricing</a>
-				<a class="header__menu-items" href="#teachers">Teachers</a>
-				<a class="header__menu-items" href="#testimonials">Testimonials</a>
-				<a class="header__menu-items" href="#gallery">Gallery</a>
-				<a class="header__menu-items" href="#contacts">Contacts</a>
-			</nav>
+			<div class="header__wrapper">
+				<nav class="header__menu">
+					<a class="header__menu-items" href="#about">About course</a>
+					<a class="header__menu-items" href="#program">Program</a>
+					<a class="header__menu-items" href="#pricing">Pricing</a>
+					<a class="header__menu-items" href="#teachers">Teachers</a>
+					<a class="header__menu-items" href="#testimonials">Testimonials</a>
+					<a class="header__menu-items" href="#gallery">Gallery</a>
+					<a class="header__menu-items" href="#contacts">Contacts</a>
+				</nav>
+			</div>
 		</div>
 		<div class="header__banner-container container">
 			<div class="header__banner">
@@ -138,7 +145,7 @@
 		<section class="program" id="program">
 			<div class="program__container container">
 				<h2 class="program__title">Course Program</h2>
-				<div class="program__container">
+				<div class="program__info">
 					<div class="program__container-introduction introduction program__text-container">
 						<span class="program__week">Week 1-2</span>
 						<div class="introdaction__text-container">
@@ -146,9 +153,7 @@
 							<p class="introduction__text program__text">We work on the pronunciation from the very beginning
 								of the course and explain the basic rules for the use of articles and
 								prepositions.</p>
-							<div class="line__items">
-								<img class="introduction__line-items line__items" src="images/line.svg" alt="line">
-							</div>
+							<div class="line__items"></div>
 						</div>
 					</div>
 					<div class="program__container-passive passive program__text-container">
@@ -158,9 +163,7 @@
 							<p class="passive__text program__text">There's nothing complicated about Passive Voice,
 								plus it's sometimes much easier than usual way of putting
 								the sentence together.</p>
-							<div class="line__items">
-								<img class="introduction__line-items line__items" src="images/line.svg" alt="line">
-							</div>
+							<div class="line__items"></div>
 						</div>
 					</div>
 					<div class="program__container-indirect-speech indirect-speech program__text-container">
@@ -170,9 +173,7 @@
 							<p class="indirect-speech__text program__text">When you want to say that
 								somebody has said something, you use the indirect speech.
 								It's used both in written and spoken English.</p>
-							<div class="line__items">
-								<img class="introduction__line-items line__items" src="images/line.svg" alt="line">
-							</div>
+							<div class="line__items"></div>
 						</div>
 					</div>
 					<div class="program__container-conditions conditions program__text-container">
@@ -182,15 +183,13 @@
 							<p class="conditions__text program__text">We make one of the most complicated
 								topics in English simple. On the 10th week, you past the
 								final test and receive a certificate.</p>
-							<div class="line__items">
-								<img class="introduction__line-items line__items" src="images/line.svg" alt="line">
-							</div>
+							<div class="line__items"></div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<div class="line__detail-blue-top"><img href="images/line-detail-blue-bottom.svg"></div>
+		<div class="line__detail-blue-bottom"></div>
 
 		<section class="levels__container container">
 			<div class="levels__text-container">
@@ -485,7 +484,7 @@
 		</div>
 	</footer>
 	<script src="scripts/index.js"></script>
-
+	<script src="scripts/header-burger.js"></script>
 </body>
 
 </html>
