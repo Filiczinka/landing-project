@@ -1,0 +1,42 @@
+.teachers {
+padding: 90px 0;
+}
+
+.teachers__title {
+font-family: var(--font-family-title);
+font-size: 30px;
+color: var(--text-color);
+text-align: center;
+}
+
+.teachers__info {
+font-family: var(--font-family-text);
+font-size: 12px;
+font-weight: 700;
+line-height: 20.04px;
+margin: 20px 0 15px 0;
+}
+
+.teachers__name {
+font-family: var(--font-family-title);
+font-size: 20px;
+font-weight: 700;
+line-height: 26.2px;
+}
+
+.teachers__text {
+font-family: var(--font-family-text);
+color: var(--text-color);
+}
+
+.teachers__photo {
+margin-top: 50px;
+}
+
+@media (min-width: 786px) {
+.teachers__container {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 20px;
+}
+}
