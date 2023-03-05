@@ -2,6 +2,11 @@
 	background-color: var(--ui-brand-color);
 }
 
+.bottom__image-pink {
+background-image: url(../images/bottom-img-container-pink.svg);
+height: 10px;
+}
+
 .header__nav-burger {
 	height: 105px;
 	display: flex;
