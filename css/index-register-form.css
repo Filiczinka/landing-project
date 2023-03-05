@@ -1,0 +1,65 @@
+.register__form {
+background-color: var(--ui-dark-accent-color);
+padding: 70px 0;
+}
+
+.line__detail-blue-top {
+background-image: url(../images/line-detail-blue.svg);
+background-position: 20%;
+height: 20px;
+margin: -2px;
+}
+
+
+.register {
+background-color: var(--font-optical-color);
+padding: 40px 31px;
+}
+
+.button {
+background-color: var(--ui-dark-accent-color);
+padding: 10px 24px;
+width: 100%;
+text-align: center;
+color: var(--font-optical-color);
+margin-top: 30px;
+font-family: var(--font-family-text);
+font-size: 14px;
+
+}
+
+.register__user-info {
+background-color: var(--inputs-color);
+border: none;
+padding: 12px 24px;
+width: 100%;
+margin-bottom: 20px;
+color: var(--text-color);
+font-size: 14px;
+}
+
+.register__title {
+font-family: var(--font-family-title);
+font-size: 38px;
+color: var(--font-optical-color);
+}
+
+.register__text {
+font-family: var(--font-family-text);
+font-size: 18px;
+color: var(--font-optical-color);
+padding: 40px 0;
+}
+
+@media (min-width: 786px) {
+.register__container {
+display: grid;
+grid-template-columns: 65% 30%;
+gap: 20px;
+}
+
+.register__title {
+font-size: 43px;
+line-height: 51.6px;
+}
+}
