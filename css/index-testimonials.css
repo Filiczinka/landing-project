@@ -9,7 +9,6 @@
 .testimonials-carousel-container {
 	display: flex;
 	height: 100%;
-	width: 90%;
 }
 
 .testimonials__carousel-slide {
@@ -61,7 +60,7 @@
 	font-family: var(--font-family-text);
 	color: var(--text-color);
 	margin: auto;
-	width: 75%;
+	max-width: 85%;
 	padding-top: 40px;
 }
 
