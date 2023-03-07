@@ -58,6 +58,10 @@ main {
 background-color: var(--background-color);
 }
 
+.button:hover {
+background-color: var(--text-color);
+}
+
 @media (min-width: 576px) {
 .container {
 width: 540px;
