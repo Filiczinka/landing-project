@@ -3,11 +3,6 @@ background-color: var(--ui-brand-color);
 margin-top: -20px;
 }
 
-.line__pink-bottom {
-background-image: url(../images/pink-line-levels-block.svg);
-height: 20px;
-}
-
 .levels__text-container {
 padding: 100px 0;
 }

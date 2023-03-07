@@ -210,7 +210,7 @@
 				<img class="levels__banner" src="images/levels-banner.svg" alt="Girl writes">
 			</div>
 		</section>
-		<div class="line__pink-bottom"></div>
+		<div class="bottom__image-pink"></div>
 
 		<section class="pricing__container" id="pricing">
 			<div class="pricing__course-container container">
@@ -256,13 +256,14 @@
 					<p class="register__text">Register for the extensive course now and get a 25% discount!</p>
 				</div>
 				<form action="#" class="register">
-					<input class="register__user-info" type="text" name="register__name" id="register__name" placeholder="Name">
+					<input class="register__user-info" type="text" name="register__name" id="register__name" placeholder="Name"
+						required>
 					<br>
 					<input class="register__user-info" type="tel" name="register__phone" id="register__phone"
-						placeholder="Phone number">
+						placeholder="Phone number" required>
 					<br>
 					<div class="button">
-						<a href="#" class="register__button">Register</a>
+						<a href="#request__popup" class="register__button">Register</a>
 					</div>
 				</form>
 			</div>
@@ -293,6 +294,7 @@
 			</div>
 		</section>
 
+		<div class="pink__line-detail__top"></div>
 		<section class="choose">
 			<div class="container">
 				<h2 class="choose__title-title">Why choose us?</h2>
@@ -436,7 +438,9 @@
 						placeholder="Enter your e-mail">
 					<textarea class="contacts__form-user-comment" name="contacts__message" id="contacts__message"
 						placeholder="Enter your message"></textarea>
-					<button class="contacts__button button" type="button">Send</button>
+					<div class="button">
+						<a href="#request__popup" class="contacts__button">Send</a>
+					</div>
 				</form>
 			</div>
 		</section>
@@ -458,12 +462,27 @@
 				<a class="footer__menu-items" href="#contacts">Contacts</a>
 			</div>
 		</div>
-		<span class="grey__line"></span>
+		<div class="footer__grey-line">
+			<span></span>
+		</div>
 		<div class="footer__law container">
 			<p class="footer__law-created">ⓒ Created by</p>
 			<p class="footer__law-right">All rights Reserved</p>
 		</div>
 	</footer>
+
+	<div id="request__popup" class="request__popup">
+		<div id="request__popup-close__btn" class="request__submit-container">
+			<div class="request__submit-form">
+				<a href="#request__popup-close__btn" class="request__popup-close">✖</a>
+				<img class="request__submit-icon" src="images/popup-icon.svg" alt="'Done' icon">
+				<h4 class="request__submit-title">Thank you</h4>
+				<p class="request__submit-subtitle">We will contact you shortly.</p>
+				<a href="#request__popup" class="request__submit-btn">Ok</a>
+			</div>
+		</div>
+	</div>
+
 	<script src="scripts/index.js"></script>
 	<script src="scripts/header-burger.js"></script>
 	<script src="scripts/testimonials-carousel.js"></script>

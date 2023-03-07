@@ -3,8 +3,9 @@
 }
 
 .bottom__image-pink {
-background-image: url(../images/bottom-img-container-pink.svg);
-height: 10px;
+background-image: url(../images/pink-line-details-bottom.jpg);
+height: 20px;
+background-size: cover;
 }
 
 .header__nav-burger {
