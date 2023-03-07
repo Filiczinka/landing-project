@@ -400,43 +400,45 @@
 			</div>
 		</section>
 
-		<section class="contacts__container container" id="contacts">
-			<div class="contacts__text-container">
-				<h2 class="contacts__title">Contacts</h2>
-				<p class="contacts__text">
-					If you have questions, feel free to ask them by filling
-					out the form on the website, by email or by phone.</p>
-				<div class="contacts__info">
-					<ul class="contacts__list">
-						<li class="contacts__list-items">
-							<span class="contacts__list-items__span">Address</span>
-							Lodhi Estate, New Delhi,
-							<br>Delhi 110049, India
-						</li>
-						<li class="contacts__list-items">
-							<span class="contacts__list-items__span">Hours</span>
-							Monday - Saturday: 11 AM - 9 PM
-							<br>Sunday: 11 AM - 7 PM
-						</li>
-						<li class="contacts__list-items">
-							<span class="contacts__list-items__span">Contacts</span>
-							+1 (234) 567 89 00
-							<br>lingvaschool@email.com
-						</li>
-					</ul>
+		<section class="contacts" id="contacts">
+			<div class="contacts__container container">
+				<div class="contacts__text-container">
+					<h2 class="contacts__title">Contacts</h2>
+					<p class="contacts__text">
+						If you have questions, feel free to ask them by filling
+						out the form on the website, by email or by phone.</p>
+					<div class="contacts__info">
+						<ul class="contacts__list">
+							<li class="contacts__list-items">
+								<h4 class="contacts__list-items__title">Address</h4>
+								Lodhi Estate, New Delhi,
+								<br>Delhi 110049, India
+							</li>
+							<li class="contacts__list-items">
+								<h4 class="contacts__list-items__title contacts__list-items__title-hours">Hours</h4>
+								Monday - Saturday: 11 AM - 9 PM
+								<br>Sunday: 11 AM - 7 PM
+							</li>
+							<li class="contacts__list-items">
+								<h4 class="contacts__list-items__title">Contacts</h4>
+								+1 (234) 567 89 00
+								<br>lingvaschool@email.com
+							</li>
+						</ul>
+					</div>
 				</div>
+				<form action="#" class="contacts__form">
+					<input class="contacts__form-user-info" type="text" name="contacts__name" id="contacts__name"
+						placeholder="Enter your full name*">
+					<input class="contacts__form-user-info" type="tel" name="contacts__phone" id="contacts__phone"
+						placeholder="Enter your phone number*">
+					<input class="contacts__form-user-info" type="email" name="contacts__email" id="contacts__email"
+						placeholder="Enter your e-mail">
+					<textarea class="contacts__form-user-comment" name="contacts__message" id="contacts__message"
+						placeholder="Enter your message"></textarea>
+					<button class="contacts__button button" type="button">Send</button>
+				</form>
 			</div>
-			<form action="#" class="contacts__form">
-				<input class="contacts__form-user-info" type="text" name="contacts__name" id="contacts__name"
-					placeholder="Enter your full name*">
-				<input class="contacts__form-user-info" type="tel" name="contacts__phone" id="contacts__phone"
-					placeholder="Enter your phone number*">
-				<input class="contacts__form-user-info" type="email" name="contacts__email" id="contacts__email"
-					placeholder="Enter your e-mail">
-				<textarea class="contacts__form-user-comment" name="contacts__message" id="contacts__message"
-					placeholder="Enter your message" cols="30" rows="10"></textarea>
-				<button class="contacts__button button" type="button">Send</button>
-			</form>
 		</section>
 	</main>
 

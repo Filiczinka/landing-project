@@ -1,0 +1,78 @@
+.contacts {
+	background-color: var(--ui-brand-color);
+	padding: 70px 0 40px 0;
+}
+
+.contacts__text-container {
+	padding: 31px 27px;
+	line-height: 26px;
+}
+
+.contacts__text {
+	font-size: 18px;
+	color: var(--text-color);
+}
+
+.contacts__list {
+	font-family: var(--font-family-text);
+	padding-top: 25px;
+	color: var(--text-color);
+}
+
+.contacts__list-items {
+	margin-bottom: 16px;
+}
+
+.contacts__list-items__title {
+	font-family: var(--font-family-title);
+	font-size: 20px;
+}
+
+.contacts__form {
+	background-color: var(--font-optical-color);
+	padding: 39px 31px;
+}
+
+.contacts__form-user-info,
+.contacts__form-user-comment {
+	background-color: var(--inputs-color);
+	border: none;
+	padding: 12px 24px;
+	width: 100%;
+	margin-bottom: 24px;
+	color: var(--text-color);
+}
+
+.contacts__form-user-comment {
+	min-height: 150px;
+}
+
+.contacts__button {
+	border: none;
+}
+
+@media (min-width: 786px) {
+	.contacts__container {
+		display: flex;
+		gap: 10px;
+	}
+
+	.contacts__form {
+		padding: 47px 34px;
+	}
+}
+
+@media (min-width: 992px) {
+	.contacts__list-items {
+		display: flex;
+		gap: 20%;
+	}
+
+	.contacts__list-items__title-hours {
+		padding-right: 5%;
+	}
+
+	.contacts__form {
+		padding: 64px 40px;
+	}
+}
