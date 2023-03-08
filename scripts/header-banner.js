@@ -11,6 +11,3 @@ setInterval() => {
 
 setInterval(changeTitle, 2000);
 
-const synonyms = ['TASTY', 'YUMMY', 'SPICY'];
-const headerBannerSynonyms = document.querySelector('.header__banner-synonyms');
-let currentIndex = 0;
