@@ -3,11 +3,9 @@ const words = ['Extensive', 'Adjective', 'Complete'];
 
 let currentIndex = 0;
 
-
-setInterval() => {
+setInterval(() => {
   titleElement.textContent = words[currentIndex];
   currentIndex = (currentIndex + 1) % words.length;
 }, 2000);
 
 setInterval(changeTitle, 2000);
-
