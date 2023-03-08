@@ -1,5 +1,5 @@
-const titleElement = document.querySelector('.header__change-title');
 const words = ['Extensive', 'Adjective', 'Complete'];
+const titleElement = document.querySelector('.header__change-title');
 
 let currentIndex = 0;
 
