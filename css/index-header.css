@@ -146,11 +146,6 @@ background-size: cover;
 	padding: 0;
 }
 
-.header__error-title {
-background-color: var(--ui-brand-color);
-color: var(--ui-brand-color);
-}
-
 .header__title {
 	font-family: var(--font-family-title);
 	font-size: 38px;
